@@ -1,0 +1,22 @@
+{
+  "name": "smartopen",
+  "version": "1.0.0",
+  "description": "open things",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/pushrocks/smartopen.git"
+  },
+  "keywords": [
+    "open"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/pushrocks/smartopen/issues"
+  },
+  "homepage": "https://gitlab.com/pushrocks/smartopen#README"
+}
