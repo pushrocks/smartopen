@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "open things",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "(npmts)"
   },
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://gitlab.com/pushrocks/smartopen/issues"
   },
-  "homepage": "https://gitlab.com/pushrocks/smartopen#README"
+  "homepage": "https://gitlab.com/pushrocks/smartopen#README",
+  "dependencies": {
+    "@types/open": "^0.0.29",
+    "open": "^0.0.5"
+  }
 }
