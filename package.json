@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "",
-    "build": "npmts"
+    "test": "(npmts)",
+    "build": "(npmts)"
   },
   "repository": {
     "type": "git",
