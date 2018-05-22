@@ -1,8 +1,11 @@
 {
   "npmci": {
-    "globalNpmTools": [
-      "npmts"
-    ]
+    "npmGlobalTools": [
+      "npmts",
+      "ts-node",
+      "typescript"
+    ],
+    "npmAccessLevel": "public"
   },
   "npmts": {
     "coverageTreshold": 60
