@@ -1,2 +1,4 @@
+/// <reference types="node" />
 import 'typings-global';
-export declare let openUrl: (urlArg: any) => Promise<void>;
+import { ChildProcess } from 'child_process';
+export declare let openUrl: (urlArg: any) => Promise<ChildProcess>;

@@ -1,9 +1,9 @@
-import { expect, tap } from 'tapbundle'
+import { expect, tap } from 'tapbundle';
 
-import * as smartopen from '../ts/index'
+import * as smartopen from '../ts/index';
 
 tap.test('should open a webpage', async () => {
-  smartopen.openUrl('https://lossless.com')
-})
+  await smartopen.openUrl('https://lossless.com');
+});
 
-tap.start()
+tap.start();
