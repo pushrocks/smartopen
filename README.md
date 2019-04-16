@@ -22,7 +22,10 @@ Use TypeScript for best in class instellisense.
 
 ```typescript
 import * as smartopen from '@pushrocks/smartopen';
-await smartopen.openUrl('https://lossless.com');
+const run = async () => {
+  await smartopen.openUrl('https://lossless.com');
+};
+run();
 ```
 
 For further information read the linked docs at the top of this readme.
