@@ -20,6 +20,11 @@ open things
 
 Use TypeScript for best in class instellisense.
 
+```typescript
+import * as smartopen from '@pushrocks/smartopen';
+await smartopen.openUrl('https://lossless.com');
+```
+
 For further information read the linked docs at the top of this readme.
 
 > MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
