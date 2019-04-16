@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartopen",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "open things",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
