@@ -9,5 +9,15 @@
   },
   "npmts": {
     "coverageTreshold": 60
+  },
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "pushrocks",
+      "gitrepo": "smartopen",
+      "shortDescription": "open things",
+      "npmPackagename": "@pushrocks/smartopen",
+      "license": "MIT"
+    }
   }
 }
