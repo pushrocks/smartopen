@@ -22,7 +22,6 @@
   },
   "homepage": "https://gitlab.com/pushrocks/smartopen#README",
   "dependencies": {
-    "@types/open": "^0.0.29",
     "@types/opn": "^5.1.0",
     "opn": "^5.3.0"
   },
