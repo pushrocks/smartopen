@@ -80,8 +80,9 @@ codequality:
   stage: metadata
   allow_failure: true
   script:
-    - npm install -g tslint typescript
-    - tslint -c tslint.json ./ts/**/*.ts
+    - npmci command npm install -g tslint typescript
+    - npmci npm install
+    - npmci command tslint -c tslint.json ./ts/**/*.ts
   tags:
   - docker
   - priv
