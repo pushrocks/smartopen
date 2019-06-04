@@ -27,8 +27,8 @@
   "devDependencies": {
     "@gitzone/tsbuild": "^2.1.11",
     "@gitzone/tstest": "^1.0.24",
+    "@pushrocks/tapbundle": "^3.0.9",
     "@types/node": "^12.0.4",
-    "tapbundle": "^2.0.0",
     "tslint": "^5.17.0",
     "tslint-config-prettier": "^1.18.0"
   },
