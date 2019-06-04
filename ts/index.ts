@@ -1,4 +1,4 @@
-import open = require('opn');
+import open from 'opn';
 import { ChildProcess } from 'child_process';
 
 export let openUrl = async urlArg => {
