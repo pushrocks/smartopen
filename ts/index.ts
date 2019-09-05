@@ -1,4 +1,4 @@
-import open from 'opn';
+import open from 'open';
 import { ChildProcess } from 'child_process';
 
 export let openUrl = async urlArg => {
